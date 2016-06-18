@@ -1,0 +1,12 @@
+#
+# UPPER APPLICATION DEBUG RUN SPECIFICATION
+#
+
+-include: ~com.acme.prime.upper.bndrun
+
+-runrequires.debug:  ${debug-bundles}
+
+-runtrace: true
+
+-runbundles: \
+	${error;Resolve first}
