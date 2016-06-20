@@ -134,6 +134,10 @@ public class Sample_TV_Controller_V1
 		btnAV2Button.setToolTipText("Press to select AV2 input");
 		btnAV2Button.setBounds(155, 253, 119, 25);
 		frmSampleTvController.getContentPane().add(btnAV2Button);
+		
+		JMenu mnAboutMenu = new JMenu("About");
+		mnAboutMenu.setBounds(151, 0, 123, 24);
+		frmSampleTvController.getContentPane().add(mnAboutMenu);
 		}
 
 	}

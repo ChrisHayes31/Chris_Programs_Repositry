@@ -17,3 +17,10 @@
 2016-06-19 16:49:12,721 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Working Program Files\Java\Eclipse\55Inch\src\main\resources
 2016-06-19 16:49:12,722 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-06-19 16:49:12,722 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Working Program Files\Java\Eclipse\55Inch\src\test\resources
+2016-06-20 15:01:30,216 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @962806ms
+2016-06-20 15:01:30,305 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-06-20 15:01:30,340 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@15eca4cd{/help,null,AVAILABLE}
+2016-06-20 15:01:30,354 [Start Help Server] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@2d229cdf{HTTP/1.1}{127.0.0.1:24088}
+2016-06-20 15:01:30,354 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @962946ms
+2016-06-20 15:33:44,904 [Stop Help Server] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@2d229cdf{HTTP/1.1}{127.0.0.1:0}
+2016-06-20 15:33:44,912 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@15eca4cd{/help,null,UNAVAILABLE}
