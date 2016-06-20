@@ -46,9 +46,9 @@ public class Sample_GUI {
 		btnNewButton.setBounds(60, 26, 97, 25);
 		frame.getContentPane().add(btnNewButton);
 		
-		JButton btnNewButton_1 = new JButton("New button");
-		btnNewButton_1.setBounds(60, 64, 97, 25);
-		frame.getContentPane().add(btnNewButton_1);
+		JButton btnAuthenticateButton_1 = new JButton("Authenticate");
+		btnAuthenticateButton_1.setBounds(60, 64, 112, 25);
+		frame.getContentPane().add(btnAuthenticateButton_1);
 		
 		JMenuBar menuBar = new JMenuBar();
 		frame.setJMenuBar(menuBar);
