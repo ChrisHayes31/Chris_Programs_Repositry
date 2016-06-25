@@ -173,7 +173,7 @@ public class Samsung_Remopte_Control_V1
 		frmTelevisionRemoteControl.getContentPane().add(btnHDMI1Button);
 		
 		JButton btnNewButton = new JButton("New button");
-		btnNewButton.setBounds(116, 198, 97, 25);
+		btnNewButton.setBounds(144, 102, 97, 25);
 		frmTelevisionRemoteControl.getContentPane().add(btnNewButton);
 
 		btnConnectButton.addActionListener(new ActionListener() {
