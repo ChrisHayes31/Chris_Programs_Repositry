@@ -171,6 +171,10 @@ public class Samsung_Remopte_Control_V1
 		btnHDMI1Button.setToolTipText("Press to select HDMI 1 input");
 		btnHDMI1Button.setBounds(12, 102, 110, 25);
 		frmTelevisionRemoteControl.getContentPane().add(btnHDMI1Button);
+		
+		JButton btnNewButton = new JButton("New button");
+		btnNewButton.setBounds(116, 198, 97, 25);
+		frmTelevisionRemoteControl.getContentPane().add(btnNewButton);
 
 		btnConnectButton.addActionListener(new ActionListener() {
 
