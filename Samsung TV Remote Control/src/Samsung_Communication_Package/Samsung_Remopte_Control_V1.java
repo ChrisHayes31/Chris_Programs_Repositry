@@ -172,9 +172,10 @@ public class Samsung_Remopte_Control_V1
 		btnHDMI1Button.setBounds(12, 102, 110, 25);
 		frmTelevisionRemoteControl.getContentPane().add(btnHDMI1Button);
 		
-		JButton btnNewButton = new JButton("New button");
-		btnNewButton.setBounds(134, 102, 112, 25);
-		frmTelevisionRemoteControl.getContentPane().add(btnNewButton);
+		JButton btnAV1Button = new JButton("AV1");
+		btnAV1Button.setToolTipText("Press to select AV1 input");
+		btnAV1Button.setBounds(134, 102, 112, 25);
+		frmTelevisionRemoteControl.getContentPane().add(btnAV1Button);
 
 		btnConnectButton.addActionListener(new ActionListener() {
 
